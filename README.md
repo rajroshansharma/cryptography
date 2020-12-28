@@ -45,3 +45,16 @@ spuffyffet:1f5c5683982d7c3814d4d9e6d749b21e
 moodie:8d763385e0476ae208f21bc63956f748
 nabox:defebde7b6ab6f24d5824682a16c3ae4
 bandalls:bdda5f03128bcbdfa78d8934529048cf
+ 
+
+
+What our app can do ? 
+functional requriments :
+1. checking the strentgh of the password.
+2. generate a strong password for your accounts.
+3. crack a password.
+
+mechanism on which it works.
+1. for checking the strentgh of the password we will take a input from the user and then we will apply/judge many conditions on them (for example: we will see that is there any    capital letter or not if yes then give point by 1 ,etc ).then we will give the overall percentage of the strentgh by seeing the total points obtained by the password.
+2. in python there is function called random(). what this does is that it produces/generate/gives a random alphabet/numrical value assign within the limits.so, we will use this    function in our project.
+3. we will use a hashing algoritm to crack a pwd.
